@@ -23,7 +23,7 @@ public class AddingMachine {
         total -= value;
         history += " - " + value;
     }
-
+/*  Not Needed
     public void multiply(int value) {
         total *= value;
         history += " * " + value;
@@ -33,7 +33,7 @@ public class AddingMachine {
         total /= value;
         history += " / " + value;
     }
-
+*/
     public String getHistory() {
         return history;
     }
