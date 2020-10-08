@@ -37,4 +37,23 @@ public class AddingMachine {
     public String getHistory() {
         return history;
     }
-}
+    
+
+
+
+	   public static void main(String[] args) {
+	       // create Calculator class object
+		   AddingMachine myAddingMachine=new AddingMachine();
+		   
+		   myAddingMachine.add(4);
+		   
+		   myAddingMachine.subtract(2);
+		   
+		   myAddingMachine.add(5);
+		   
+	       System.out.println(myAddingMachine.getHistory());
+	       
+	       System.out.println("Total= "+myAddingMachine.getTotal());
+	   }}
+	   
+	
